@@ -175,12 +175,12 @@ Take this HTML and rewrite it to be as accessible as possible, given the strateg
     <link href='../assets/style.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <div class="site-header">
-      <p class="site-title">Turtle Ipsum</p>
-      <p class="site-subtitle">The World's Premier Turtle Fan Club</p>
-    </div>
+    <Header>
+      <h1>Turtle Ipsum</h1>
+      <h2>The World's Premier Turtle Fan Club</h2>
+    </Header>
     <div class="main-nav">
-      <p class="nav-header">Resources</p>
+      <h3>Resources</h3>
       <div class="nav-list">
         <p class="nav-item nav-item-bull"><a href="https://www.youtube.com/watch?v=CMNry4PE93Y">"I like turtles"</a></p>
         <p class="nav-item nav-item-bull"><a href="https://en.wikipedia.org/wiki/Turtle">Basic Turtle Info</a></p>
@@ -189,17 +189,16 @@ Take this HTML and rewrite it to be as accessible as possible, given the strateg
     </div>
     <div class="main-content">
       <div>
-        <p class="page-title">Welcome to Turtle Ipsum. 
-            <a href="">Click here</a> to learn more.
-        </p>
+        <h1>Welcome to <a href="">Turtle Ipsum.</a>
+        </h1>
         <p class="article-text">
           Turtle ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </p>
       </div>
     </div>
-    <div class="footer">
+    <footer>
       <div class="footer-section">
-        <span class="button">Sign up for turtle news</span>
+        <button>Sign up for turtle news</button>
       </div><div class="footer-section">
         <p class="nav-header footer-title">
           Internal Pages
